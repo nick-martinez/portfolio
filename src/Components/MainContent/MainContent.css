@@ -1,0 +1,111 @@
+.backgroundImage {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+  opacity: 70%;
+}
+
+.headshot {
+  width: 20%;
+  position: relative;
+  border-radius: 2px;
+}
+
+.mainContainer {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+}
+
+.mainContainer > h1 {
+  color: #fff;
+  font-size: 100px;
+  padding-top: 40px;
+}
+
+.mainContainer > h3 {
+  color: #fff;
+  font-size: 75px;
+}
+
+.mainContainer > p {
+  margin: 40px;
+  color: #f4f4f4;
+  font-size: 32px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+.mainBtns {
+  margin-top: 32px;
+}
+
+.mainBtns .btn {
+  margin: 6px;
+}
+
+@media screen and (max-width: 960px) {
+  .mainContainer > h1 {
+    font-size: 70px;
+    margin-top: -150px;
+  }
+
+  .headshot {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .mainContainer > h1 {
+    font-size: 32px;
+    margin-top: -100px;
+  }
+
+  .mainContainer > h3 {
+    font-size: 28px;
+  }
+
+  .mainContainer > p {
+    font-size: 18px;
+  }
+
+  .btnMobile {
+    display: block;
+    text-decoration: none;
+  }
+
+  .btn {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .mainContainer > h1 {
+    font-size: 28px;
+    margin-top: -100px;
+  }
+
+  .mainContainer > h3 {
+    font-size: 24px;
+  }
+
+  .mainContainer > p {
+    font-size: 14px;
+  }
+
+  .btnMobile {
+    display: block;
+    text-decoration: none;
+  }
+
+  .btn {
+    width: 100%;
+  }
+}
