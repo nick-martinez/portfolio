@@ -1,0 +1,14 @@
+.container {
+  display: block;
+  text-align: center;
+}
+
+.container h3 {
+  font-family: monospace;
+}
+
+.container .taskList {
+  padding-top: 2em;
+  display: inline-block;
+}
+
