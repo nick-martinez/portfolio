@@ -22,22 +22,35 @@
   align-items: center;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
   object-fit: contain;
+<<<<<<< HEAD
 }
 
 .mainContainer > h1 {
   color: #fff;
+=======
+  color: #202020;
+}
+
+.mainContainer > h1 {
+>>>>>>> main
   font-size: 100px;
   padding-top: 40px;
 }
 
 .mainContainer > h3 {
+<<<<<<< HEAD
   color: #fff;
+=======
+>>>>>>> main
   font-size: 75px;
 }
 
 .mainContainer > p {
   margin: 40px;
+<<<<<<< HEAD
   color: #f4f4f4;
+=======
+>>>>>>> main
   font-size: 32px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;

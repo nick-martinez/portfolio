@@ -104,6 +104,13 @@
     z-index: 1;
   }
 
+<<<<<<< HEAD
+=======
+  .navItem {
+    padding: 2rem;
+  }
+
+>>>>>>> main
   .navLink {
     color: #fff;
     text-align: center;
@@ -144,7 +151,11 @@
   .navLinkMobile {
     display: block;
     text-align: center;
+<<<<<<< HEAD
     margin: 4rem auto;
+=======
+    margin: 5rem auto;
+>>>>>>> main
     border-radius: 4px;
     width: 80%;
     text-decoration: none;
